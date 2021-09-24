@@ -1,0 +1,111 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300&display=swap');
+ body {
+     margin: 0;
+     padding: 0;
+     box-sizing: border-box;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     height: 100vh;
+     font-family: "Ubuntu";
+     background-image: url(https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1525&q=80)
+ }
+ 
+ .main-box {
+     width: 500px;
+     height: 500px;
+     border-radius: 10px;
+     text-align: center;
+     padding: 20px 0;
+ }
+ 
+ .main-box2 {
+     width: 50px;
+     height: 60px;
+     box-shadow: 2px 4px 2px 4px rgba(70, 224, 151, 0.65);
+     border-radius: 10px;
+     text-align: center;
+     padding: 10px 0;
+ }
+ 
+ .main-box3 {
+     width: 300px;
+     height: 300px;
+     box-shadow: 2px 4px 2px 4px rgba(70, 224, 151, 0.65);
+     border-radius: 10px;
+     text-align: right;
+     padding: 10px 0;
+ }
+ 
+ .big-circle {
+     width: 150px;
+     height: 150px;
+     border: 9px solid #46E097;
+     border-radius: 70%;
+     margin: auto;
+     position: relative;
+ }
+ 
+ .small-circle {
+     width: 140px;
+     height: 140px;
+     border: 10px solid #fff;
+     border-radius: 50%;
+     position: absolute;
+     top: -5px;
+     left: -5px;
+     background-image: url("img/fatshark.jpg");
+     background-position: center;
+     background-size: cover;
+ }
+ 
+ .heading-name {
+     margin: 3px 0;
+     color: #fff;
+ }
+ 
+ .heading-work {
+     color: #fff;
+     font-weight: 300;
+     margin: 3px 0;
+ }
+ 
+ p {
+     padding: 0 20px;
+     margin-bottom: 25px;
+     color: #fff;
+ }
+ 
+ .follow_btn {
+     text-decoration: none;
+     background: #46E097;
+     color: #fff;
+     padding: 10px 20px;
+     border-radius: 20px;
+     box-shadow: 2px 2px 1px 1px rgba(70, 224, 151, 0.65);
+ }
+ 
+ .follow_btn:hover {
+     color: #46E097;
+     background: #DAF9F6;
+     font-weight: 600;
+ }
+ 
+ .footerholder {
+     background: transparent;
+     bottom: 0;
+     position: fixed;
+     color: #46E097;
+     /* text-align: center; */
+     /* width: 100%; */
+ }
+ 
+ .footer {
+     position: fixed;
+     left: 0;
+     bottom: 0;
+     width: 100%;
+     background-color: transparent;
+     color: 46E097;
+     text-align: center;
+ }
